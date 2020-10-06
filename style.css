@@ -137,7 +137,7 @@ main {
   display: flex;
 }
 .product {
-  flex: 1;
+  /* flex: 1; */
 }
 .product span {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
