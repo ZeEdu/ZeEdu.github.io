@@ -262,9 +262,6 @@ main {
   .delivery-title {
     text-align: left;
   }
-  .products-title {
-    text-align: left;
-  }
 
   .argument-section {
     flex-direction: column;
@@ -273,6 +270,26 @@ main {
     margin-top: 15px;
   }
 
+  .products-section {
+    margin: 0 20px 60px 20px;
+  }
+  .products-title {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .products-title {
+    text-align: left;
+  }
+
+  .product-image-holder {
+    max-width: 125px;
+  }
+
+  .testimonials-title {
+    text-align: left;
+    margin-left: 20px;
+  }
   .testimonials-holder {
     flex-direction: column;
   }
