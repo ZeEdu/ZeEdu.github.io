@@ -1,3 +1,7 @@
+:root {
+  font-size: 16px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -135,9 +139,10 @@ main {
 
 .produts-holder {
   display: flex;
+  flex-wrap: wrap;
 }
 .product {
-  /* flex: 1; */
+  flex: 1;
 }
 .product span {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -152,6 +157,7 @@ main {
 }
 .product-image {
   max-width: 100%;
+  min-width: 150px;
   height: auto;
   border-radius: 15px;
 }
@@ -235,6 +241,9 @@ main {
   main {
     display: flex;
   }
+  .title {
+    font-size: 36px;
+  }
   .subtitle {
     max-width: 80%;
   }
@@ -244,6 +253,17 @@ main {
   }
   .delivery-illustration-holder {
     display: none;
+  }
+
+  .products-title {
+    margin-left: 20px;
+  }
+
+  .delivery-title {
+    text-align: left;
+  }
+  .products-title {
+    text-align: left;
   }
 
   .argument-section {
