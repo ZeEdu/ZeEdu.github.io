@@ -15,6 +15,7 @@ main {
   text-align: center;
   height: 100vh;
   margin-bottom: 30px;
+  display: flex;
 }
 .main-content {
   margin: auto;
@@ -37,7 +38,7 @@ main {
 
 .illustration-holder {
   margin: 15px auto;
-  width: 55%;
+  width: 100%;
 }
 .illustration {
   width: 100%;
@@ -237,7 +238,7 @@ main {
 }
 /* Mobile: 576px */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   main {
     display: flex;
   }
@@ -296,5 +297,17 @@ main {
 
   .testimonial {
     max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .delivery-illustration-holder {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .delivery-illustration-holder {
+    display: none;
   }
 }
