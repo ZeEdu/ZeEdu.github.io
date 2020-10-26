@@ -102,10 +102,6 @@ p {
   background: var(--green-light);
 }
 
-/* .delivery-illustration-holder {
-  max-width: 100%;
-} */
-
 .delivery-illustration-holder .delivery-illustration {
   max-width: 100%;
   height: auto;
@@ -162,6 +158,7 @@ p {
   width: 100%;
   height: auto;
 }
+
 .products-section > div .product h2 {
   font-family: var(--open-sans);
   font-size: 18px;
