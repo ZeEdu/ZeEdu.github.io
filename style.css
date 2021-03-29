@@ -20,10 +20,6 @@ body {
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-main {
-  margin-top: 30px;
-=======
 .container {
   max-width: calc(100% - (var(--border-margin) * 2));
   margin: 0 auto;
@@ -37,16 +33,11 @@ main {
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0em;
->>>>>>> 0b2639fd1440421143094fbf3bb910c294f102ae
   text-align: center;
   text-transform: uppercase;
   color: var(--green);
 }
 
-<<<<<<< HEAD
-.main-content {
-  margin: auto;
-=======
 p {
   font-family: var(--open-sans);
   font-size: 14px;
@@ -55,7 +46,6 @@ p {
   line-height: 19px;
   letter-spacing: 0em;
   color: var(--dark);
->>>>>>> 0b2639fd1440421143094fbf3bb910c294f102ae
 }
 
 .hero-zone .title {
@@ -92,11 +82,7 @@ p {
 }
 
 .btn-home {
-<<<<<<< HEAD
-  border-radius: 25px;
-=======
   background: var(--green);
->>>>>>> 0b2639fd1440421143094fbf3bb910c294f102ae
   padding: 18px 36px;
   border: none;
   border-radius: 50px;
@@ -158,23 +144,9 @@ p {
 .products-section > div {
   display: flex;
   flex-wrap: wrap;
-<<<<<<< HEAD
-}
-
-.product {
-  flex: 1;
-}
-.product span {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: #00160a;
-=======
   align-content: space-between;
   text-align: center;
   padding: 5px;
->>>>>>> 0b2639fd1440421143094fbf3bb910c294f102ae
 }
 
 .products-section > div .product {
@@ -182,20 +154,11 @@ p {
   margin: 5px;
 }
 
-<<<<<<< HEAD
-.product-image {
-  max-width: 100%;
-  min-width: 150px;
-=======
 .products-section > div .product img {
   width: 100%;
->>>>>>> 0b2639fd1440421143094fbf3bb910c294f102ae
   height: auto;
 }
 
-<<<<<<< HEAD
-.testimonials-holder {
-=======
 .products-section > div .product h2 {
   font-family: var(--open-sans);
   font-size: 18px;
@@ -208,7 +171,6 @@ p {
 }
 
 #testimonials .testimonials-holder {
->>>>>>> 0b2639fd1440421143094fbf3bb910c294f102ae
   display: flex;
   align-content: center;
 }
@@ -217,33 +179,10 @@ p {
   width: 100%;
   position: relative;
   flex: 1;
-<<<<<<< HEAD
-  max-width: 300px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-weight: regular;
-  color: #00160a;
-  /* position: relative; */
-}
-
-.testimonials-title {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 2rem;
-  text-align: center;
-  text-transform: uppercase;
-  color: #009541;
-  margin-bottom: 30px;
-}
-
-.testimonial::before {
-  /* top: ;
-  position: absolute; */
-=======
   margin: 60px 15px 0 15px;
 }
 
 #testimonials .testimonials-holder .testimonial::before {
->>>>>>> 0b2639fd1440421143094fbf3bb910c294f102ae
   content: '"';
   display: block;
   position: absolute;
@@ -309,25 +248,10 @@ p {
   text-align: center;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 600px) {
-  .delivery-section,
-  .argument-section,
-  .products-section,
-  .testimonials-section {
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-
-  main {
-    display: flex;
-    margin-top: 0;
-=======
 @media screen and (max-width: 576px) {
   .products-section .section-title,
   .testimonials-section .section-title {
     text-align: left;
->>>>>>> 0b2639fd1440421143094fbf3bb910c294f102ae
   }
 
   #delivery .delivery-text-holder h1 {
@@ -350,31 +274,11 @@ p {
     margin: 0;
   }
 
-<<<<<<< HEAD
-  .delivery-text-holder {
-    margin: 0;
-  }
-
-  .testimonials-holder {
-    flex-direction: column;
-  }
-
-  .testimonial {
-    max-width: 100%;
-    margin-bottom: 15px;
-  }
-
-  .delivery-title,
-  .products-title,
-  .testimonials-title {
-    text-align: left;
-=======
   .testimonials-section .testimonials-holder .testimonial {
     width: 100%;
   }
 
   #testimonials .testimonials-holder .testimonial {
     margin: 60px 0 0 0;
->>>>>>> 0b2639fd1440421143094fbf3bb910c294f102ae
   }
 }
