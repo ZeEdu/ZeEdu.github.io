@@ -8,10 +8,12 @@ body {
 }
 
 main {
+  margin-top: 30px;
   text-align: center;
   height: 100vh;
   margin-bottom: 30px;
 }
+
 .main-content {
   margin: auto;
 }
@@ -40,7 +42,6 @@ main {
 }
 
 .btn-home {
-  margin-top: 30px;
   border-radius: 25px;
   padding: 18px 36px;
   background: #009541;
@@ -135,9 +136,11 @@ main {
 
 .produts-holder {
   display: flex;
+  flex-wrap: wrap;
 }
+
 .product {
-  /* flex: 1; */
+  flex: 1;
 }
 .product span {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -150,10 +153,24 @@ main {
 .product-image-holder {
   margin: 10px;
 }
+
 .product-image {
   max-width: 100%;
+  min-width: 150px;
   height: auto;
   border-radius: 15px;
+}
+
+.testimonials-holder {
+  display: flex;
+}
+.testimonial {
+  flex: 1;
+  max-width: 300px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: regular;
+  color: #00160a;
+  /* position: relative; */
 }
 
 .testimonials-title {
@@ -165,19 +182,10 @@ main {
   color: #009541;
   margin-bottom: 30px;
 }
-.testimonials-holder {
-  display: flex;
-}
-.testimonial {
-  flex: 1;
-  max-width: 300px;
-  margin: 20px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-weight: regular;
-  color: #00160a;
-}
 
 .testimonial::before {
+  /* top: ;
+  position: absolute; */
   content: '"';
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4rem;
@@ -229,11 +237,19 @@ main {
   margin: 50px auto;
   flex: 1;
 }
-/* Mobile: 576px */
 
 @media screen and (max-width: 600px) {
+  .delivery-section,
+  .argument-section,
+  .products-section,
+  .testimonials-section {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
   main {
     display: flex;
+    margin-top: 0;
   }
   .subtitle {
     max-width: 80%;
@@ -253,11 +269,22 @@ main {
     margin-top: 15px;
   }
 
+  .delivery-text-holder {
+    margin: 0;
+  }
+
   .testimonials-holder {
     flex-direction: column;
   }
 
   .testimonial {
     max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .delivery-title,
+  .products-title,
+  .testimonials-title {
+    text-align: left;
   }
 }
